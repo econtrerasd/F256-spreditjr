@@ -1,0 +1,59 @@
+
+Version 0.7   (20 Jan 2023)
+-----------------
+
+* Current version can edit 32x32 sprites using the Joystick
+* All sprite editions functions complete (pen size, copy, paste, clr, grid, mirrorX, mirrorY and scroll)
+* Generic functions completed (Add sprite, Delete Sprite, Show next, Show previous, Exit)
+* Palette selection and Color Editing completed
+
+
+Version 0.8  (11 Feb 2023)
+-------------------------------
+
+* Store Sprite data in memory sprite Index format (defined by Paul Robson) 
+* Save/Load sprites
+* Add Pick Color function (using keypress?) 
+* Create a Sample program that load sprites savesd in the editor into memory from a Basic program
+
+Version 0.9  (22 Feb 2023)
+--------------------------------
+
+* Add mouse support and allow it to work alongside joystick support
+* Modify Pick Color Function to allow it to work with mouse 
+* Modify Delete Function to allow it to work with mouse
+* Modify Delete Function to allow it to work with mouse
+* Create a Manual for this version of the Sprite Editor 
+* Improve Joystick Handling by adding acceleration 
+
+
+Version 1.0 (28 Feb 2023)
+--------------------------------
+* Mayor revamp to add support for different size sprites 8x8, 16x16, 24x24, 32x32 
+	- A new Icon allows you to select sprite size
+	! Restrictions: Rezise sprite is only supported on Last sprite 
+	  to avoid memory reconfiguration logic.
+	- Sprite size is correctly stored on the Sprite Index in SuperBASIC, this way
+	  loaded sprites still work correctly with the routine on the previous manual
+* Save/Load Palette now works correctly
+
+
+Version 1.1 (4 March 2023)
+--------------------------------
+* removed cursor 
+* Improved trigering area when clicking Icons
+
+
+Version 1.2 (LATEST!)
+--------------------------------
+Improve Sprite Index Area in order to better use memory (Current model only allows sprites to be 1024 bytes aligned in memory)
+Update Manual with current functionality
+Include Basic program in Manual to use sprites from SUPERBASIC
+Describe Save Format
+
+
+Version 1.3 (planned features)
+--------------------------------
+Remove Palette from Source Code and load it from a file
+Add Keybindings to all functions
+Update Manual with KeyBindings
